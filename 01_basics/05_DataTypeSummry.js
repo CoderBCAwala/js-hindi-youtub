@@ -24,3 +24,15 @@ const myFunction = function(){
     console.log("hello")
 }
 console.log(typeof myFunction)
+
+
+// *************  Memory   ****************
+// Stack (primitive), Heap (Non-primitive)
+
+
+let myYoutubName =  "coderbcawala"
+
+let anotherName = myYoutubName
+anotherName = "charanvilog"
+console.log(anotherName)
+console.log(myYoutubName)
